@@ -367,6 +367,7 @@ FROM (SELECT user_id, SUM(purchased_credits) AS total_credit
     WHERE email = 'wXlTq@hexschooltest.io' AND status <> '課程已取消'
     GROUP BY user_id) AS "COURSE_BOOKING" ON "COURSE_BOOKING".user_id = "CREDIT_PURCHASE".user_id;
 
+
 -- ████████  █████   █     ███  
 --   █ █   ██    █  █     █     
 --   █ █████ ███ ███      ████  
