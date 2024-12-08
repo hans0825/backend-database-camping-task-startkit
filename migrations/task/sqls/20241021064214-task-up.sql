@@ -165,7 +165,7 @@ set experience_years = 5
 where user_id = (
     select id 
     from "USER" 
-    where email = 'starplatinum@hexschooltest.io'
+    where email = 'starplatinum@hexschooltest.io');
 
 -- 3-4 刪除：新增一個專長 空中瑜伽 至 SKILL 資料表，之後刪除此專長。
 
